@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="99" red="99" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="216" max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" pref="63" max="-2" attributes="0"/>
+                          <EmptySpace min="33" pref="455" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="829" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="531" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="11" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JList" name="jList1">
+              <Properties>
+                <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                  <StringArray count="44">
+                    <StringItem index="0" value="                                                                      CUESTIONARIO  "/>
+                    <StringItem index="1" value=" "/>
+                    <StringItem index="2" value="1. &#xbf;Qu&#xe9; es la programaci&#xf3;n orientada a objetos(POO) ?"/>
+                    <StringItem index="3" value="Es una forma especial de programar, m&#xe1;s cercana a como expresar&#xed;amos las cosas en la vida real"/>
+                    <StringItem index="4" value=" "/>
+                    <StringItem index="5" value="2. &#xbf;Cu&#xe1;les son los conceptos y nociones b&#xe1;sicas de POO?"/>
+                    <StringItem index="6" value=" "/>
+                    <StringItem index="7" value="3. Explique de manera clara:"/>
+                    <StringItem index="8" value="- Polimorfismo: Es la capacidad que tienen los objetos de comportarse de m&#xfa;ltiples formas "/>
+                    <StringItem index="9" value="- Abstracci&#xf3;n: Permite resaltar la parte m&#xe1;s representativa de algo, ignorando los detalles para centrarse en lo principal"/>
+                    <StringItem index="10" value="- Herencia: Permite la creaci&#xf3;n de nuevas clases basadas en clases ya existentes, pudiendo obtener las caracter&#xed;sticas de las clases padres"/>
+                    <StringItem index="11" value="- Encapsulamiento: Es la forma de proteger nuestros datos dentro del sistema"/>
+                    <StringItem index="12" value=" "/>
+                    <StringItem index="13" value="4. &#xbf; Por que es preferible usar POO a programaci&#xf3;n estructurada?"/>
+                    <StringItem index="14" value="Porque la programaci&#xf3;n orientada a objetos es m&#xe1;s comprensible,"/>
+                    <StringItem index="15" value=" lo cual la hace m&#xe1;s f&#xe1;cil de aplicar en la vida cotidiana transformada en c&#xf3;digo"/>
+                    <StringItem index="16" value=" "/>
+                    <StringItem index="17" value="5. &#xbf;Qu&#xe9; ventajas posee al usar Java para el desarrollo de aplicaciones? "/>
+                    <StringItem index="18" value="- Facilita la reutilizaci&#xf3;n de dise&#xf1;os y c&#xf3;digos"/>
+                    <StringItem index="19" value="- Es m&#xe1;s f&#xe1;cil de aplicar"/>
+                    <StringItem index="20" value="- Facilita la revisi&#xf3;n y modificaci&#xf3;n de sistemas desarrollados "/>
+                    <StringItem index="21" value="- Aumenta la consistencia interna al tratar los atributos y operaciones"/>
+                    <StringItem index="22" value=" "/>
+                    <StringItem index="23" value="6. Desglose cada uno de los siguientes conceptos en el &#xe1;mbito de POO"/>
+                    <StringItem index="24" value="- Clase: son plantillas para la creaci&#xf3;n de objetos en lo que se conoce como programa orientada a objetos"/>
+                    <StringItem index="25" value="- M&#xe9;todo: conjunto de instrucciones definidas dentro de una clase que realiza una tarea y la invocamos mediante un nombre"/>
+                    <StringItem index="26" value="- Constructor: es una sub rutina cuya misi&#xf3;n es inicializar un objeto de una clase"/>
+                    <StringItem index="27" value="- Librer&#xed;a: conjunto de clases que poseen una serie de m&#xe9;todos y atributos, facilitando las operaciones "/>
+                    <StringItem index="28" value="- Registro: es una variable especial que tiene la capacidad de almacenar datos de diferentes tipos "/>
+                    <StringItem index="29" value="- Datos: representan informaci&#xf3;n que queremos recordar, comparar o manipular"/>
+                    <StringItem index="30" value=" "/>
+                    <StringItem index="31" value="7.&#xbf;Cu&#xe1;les son las caracteristicas principales de los siguientes tipos de datos?"/>
+                    <StringItem index="32" value="- Int:32 bits, se utiliza para n&#xfa;meros enteros"/>
+                    <StringItem index="33" value="- Double:64 bits, se utiliza para los n&#xfa;meros decimales "/>
+                    <StringItem index="34" value="- String: Es para una cadena de texto "/>
+                    <StringItem index="35" value="- Char:16 bits. Unicode"/>
+                    <StringItem index="36" value="- Object:"/>
+                    <StringItem index="37" value=" "/>
+                    <StringItem index="38" value="8. &#xbf;Que es la clase math en JAVA?"/>
+                    <StringItem index="39" value="  Representa la libreria matem&#xe1;tica de java "/>
+                    <StringItem index="40" value=" "/>
+                    <StringItem index="41" value="9. &#xbf;Qu&#xe9; es una base de datos?"/>
+                    <StringItem index="42" value=" son un almacen que nos permiten guardargrandes cantidades de informacion de forma organizada"/>
+                    <StringItem index="43" value=" para que luego podamos encontrarla y utilizarla facilmente"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="SALIR"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="REGRESAR"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
